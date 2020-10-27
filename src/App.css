@@ -3,13 +3,16 @@
     flex-wrap: wrap;
     
 }
-.productContainer>div{
+.productContainer>.link{
     align-items: center;
     text-align: center;
     max-width: 200px;
     box-shadow: 0 0 10px rgb(85, 43, 43);
     margin: 10px;
 }
-.productContainer>div:hover{
+.productContainer> .link:hover{
   background-color: chocolate;
+}
+*{
+    text-align: center;
 }

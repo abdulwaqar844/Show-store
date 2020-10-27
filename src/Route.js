@@ -14,7 +14,7 @@ export default function RouteConfig() {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/product" element={<Product />} />
+                <Route exact path="/product" element={<Product />} />
                 <Route path="/product/:id" element={<ProductItem />} />
                 <Route path="*" element={<Home />} />
             </Routes>
