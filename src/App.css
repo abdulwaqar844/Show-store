@@ -10,3 +10,6 @@
     box-shadow: 0 0 10px rgb(85, 43, 43);
     margin: 10px;
 }
+.productContainer>div:hover{
+  background-color: chocolate;
+}
