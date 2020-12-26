@@ -16,6 +16,7 @@ export default function Product() {
             to= {`/product/${keyName}`} >
             <h4>{Shoe.name}</h4>
             <img src={Shoe.img} height={100} alt={"Shoes IMG"} />
+<h4>{Shoe.price}</h4>
           </Link>
 
         );
