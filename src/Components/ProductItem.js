@@ -12,8 +12,11 @@ export default function ProductItem() {
       <h1>Welcome To Product Item</h1>
       <div className="link" >
         <h4>{Shoe.name}</h4>
+<img src={Shoe.img2} height={300} alt={"Shoes IMG"} />
+     
         <img src={Shoe.img} height={300} alt={"Shoes IMG"} />
-              </div>
+       <h4>Price:{Shoe.price}</h4>       
+</div>
 
     </div>
   );
